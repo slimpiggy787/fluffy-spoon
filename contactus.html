@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Nescafe</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="https://www.nescafe.com/" class="logo">Nescafe<span></span></a>
+        <ul class="menu-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+        <span id="menu-btn" class="material-icons-outlined" aria-label="Menu">menu</span>
+    </nav>
+</header>
+<section class="contact-section">
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Have a question or feedback for us? Fill out the form below and we'll get back to you as soon as possible.</p>
+        
+        <form id="contact-form" method="post" action="submit_form.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-required="true"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Your other content here -->
+
+<script src="script.js"></script>
+</body>
+</html>
+

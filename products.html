@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="https://www.nescafe.com/" class="logo">Products<span></span></a>
+        <ul class="menu-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <span id="menu-btn" class="material-icons-outlined" aria-label="Menu">menu</span>
+    </nav>
+</header>
+
+<section class="hero-section">
+    <div class="products">
+        <div class="product-card">
+            <img src="img/expresso.jpg" alt="Espresso Coffee">
+            <h2>Espresso Coffee</h2>
+            <p>A perfect cup of espresso for those who enjoy a strong, rich flavor.</p>
+            <button onclick="location.href='product-details.html?product=espresso'">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="img/cups2.jpg" alt="Dark Coffee">
+            <h2>Dark Coffee</h2>
+            <p>Kickstart your day with our bold and aromatic dark coffee blend.</p>
+            <button onclick="location.href='product-details.html?product=dark-coffee'">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="img/lattecups.jpg" alt="Latte Coffee">
+            <h2>Latte Coffee</h2>
+            <p>Indulge in the creamy goodness of our latte coffee, perfect for any occasion.</p>
+            <button onclick="location.href='product-details.html?product=latte-coffee'">Buy Now</button>
+        </div>
+        <!-- Add more product cards as needed -->
+    </div>
+</section>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>
+
